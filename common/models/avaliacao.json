@@ -1,0 +1,39 @@
+{
+  "name": "Avaliacao",
+  "plural": "Avaliacoes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "email": {
+      "type": "string",
+      "id": false,
+      "required": true,
+      "index": false
+    },
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "nota": {
+      "type": "number",
+      "required": false
+    },
+    "questoes": {
+      "type": [
+        "object"
+      ],
+      "required": false
+    },
+    "template": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

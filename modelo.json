@@ -1,0 +1,56 @@
+Gabarito:
+{
+    "questoes": [{
+            "nome": "questao1",
+            "respostaCorreta": 1
+        }, {
+            "nome": "questao2",
+            "respostaCorreta": 2
+        }],
+    "template": "JAVA-101"
+}
+
+
+Template:
+{
+    "questoes": [{
+            "nome": "questao1",
+            "texto": "Qual a estrela que ilumina a Terra?",
+            "tipoResposta": "objetiva",
+            "opcoesResposta": [{"id": 1, "texto": "Sol"}, {"id": 2, "texto": "Jupiter"}, {"id": 3, "texto": "Marte"}],
+            "descricao": "O objetivo deste processo é a consulta e o detalhamento das informações do portfolio de produtos/serviços feitos pelo próprio cliente ou prospect através de self-service ou da URA/Atendimento Humano."
+        }, {
+            "nome": "questao2",
+            "texto": "Qual é o resultado de 2 + 2?",
+            "tipoResposta": "objetiva",
+            "opcoesResposta": [{"id": 1, "texto": "3"}, {"id": 2, "texto": "4"}, {"id": 3, "texto": "5"}],
+            "descricao": "O objetivo deste processo é capturar e gravar todos os dados pertinentes do cliente necessários para a iniciar um processo de atendimento. Também é responsável pela gestão do relacionamento do cliente com a operadora e a manutenção do perfil do cliente. Também deve ser garantido que cada cliente recebe uma identidade única e que as identidades dos clientes não são duplicadas na organização. Este processo também é responsável por avaliar o valor e o risco do cliente (risco de fraude, risco de influência, presença em blacklist, corretude dos dados informados e risco de churn)."
+        }],
+    "descricao": "Exemplo de template de prova",
+    "nome": "JAVA-101",
+    "cor": "#3B90AD",
+    "corSecundaria": "#6BADC9"
+}
+
+Avaliação:
+
+{
+    "questoes": [{
+        "nome": "questao1",
+        "resposta": {
+            "id": 1,
+            "texto": "Sol"
+        }
+    }, {
+        "nome": "questao2",
+        "resposta": {
+            "id": 1,
+            "texto": "3"
+        }
+    }],
+    "template": "JAVA-101",
+    "nome": "Vanildo Vanni",
+    "email": "vanildov@br.ibm.com",
+    "nota": 0,
+    "tempo": 30
+}

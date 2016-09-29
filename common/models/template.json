@@ -1,0 +1,42 @@
+{
+  "name": "Template",
+  "plural": "Templates",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "descricao": {
+      "type": "string",
+      "required": false
+    },
+    "nome": {
+      "type": "string",
+      "required": true,
+      "index": true
+    },
+    "questoes": {
+      "type": [
+        "object"
+      ],
+      "required": true
+    },
+    "tempo": {
+      "type": "number",
+      "required": true
+    },
+    "cor": {
+      "type": "string",
+      "required": false
+    },
+    "corSecundaria": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

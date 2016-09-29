@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Template": {
+    "dataSource": "cloudant",
+    "public": true
+  },
+  "Avaliacao": {
+    "dataSource": "cloudant",
+    "public": true
+  },
+  "Gabarito": {
+    "dataSource": "cloudant",
+    "public": true
+  },
+  "Timer": {
+    "dataSource": "cloudant",
+    "public": true
+  }
+}

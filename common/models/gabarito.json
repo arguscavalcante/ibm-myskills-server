@@ -1,0 +1,26 @@
+{
+  "name": "Gabarito",
+  "plural": "Gabaritos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "questoes": {
+      "type": [
+        "object"
+      ],
+      "required": false
+    },
+    "template": {
+      "type": "string",
+      "required": true,
+      "index": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
