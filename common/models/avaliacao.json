@@ -7,13 +7,13 @@
     "validateUpsert": true
   },
   "properties": {
-    "email": {
+    "codigoCadastro": {
       "type": "string",
       "id": false,
       "required": true,
       "index": false
     },
-    "nome": {
+    "gom": {
       "type": "string",
       "required": true
     },
