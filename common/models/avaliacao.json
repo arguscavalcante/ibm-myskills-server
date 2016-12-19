@@ -13,10 +13,6 @@
       "required": true,
       "index": false
     },
-    "gom": {
-      "type": "string",
-      "required": true
-    },
     "nota": {
       "type": "number",
       "required": false
