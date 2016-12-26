@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node server/server.js",
     "pretest": "eslint .",
-    "posttest": "nsp check"
+    "posttest": "nsp check",
+    "build-client": "./node_modules/.bin/lb-sdk server/server.js ../ibm-myskills-api"
   },
   "dependencies": {
     "compression": "^1.0.3",
@@ -20,6 +21,7 @@
     "strong-error-handler": "^1.0.1"
   },
   "devDependencies": {
+    "@mean-expert/loopback-sdk-builder": "^2.1.0-rc.7",
     "eslint": "^2.5.3",
     "eslint-config-loopback": "^4.0.0",
     "nsp": "^2.1.0"
